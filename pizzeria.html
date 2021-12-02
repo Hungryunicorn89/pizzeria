@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Pizzeria Bartonella</title>
+        <link rel="stylesheet" href="pizzeria.css">
+    </head>
+    <body>
+        <h1> Pizzeria Bartonella </h1>
+        
+        <!-- kontener -->
+        <div class="slider"> 
+                
+                <!-- dodaje numerację, grafiki oraz opis -->
+                <div class="mySlide fade"> 
+                <div class="numberText"> 1 / 6 </div>
+                <img src="grafika/pizza1.jpg" style="width:100%">
+                <div class="text"> Calzone </div>
+                </div>
+                
+                <div class="mySlide fade"> 
+                <div class="numberText"> 2 / 6 </div>
+                <img src="grafika/pizza2.jpg" style="width:100%">
+                <div class="text"> Salame </div>
+                </div>
+
+                <div class="mySlide fade"> 
+                <div class="numberText"> 3 / 6 </div>
+                <img src="grafika/pizza3.jpg" style="width:100%">
+                <div class="text"> Margherita </div>
+                </div>
+
+                <div class="mySlide fade"> 
+                <div class="numberText"> 4 / 6 </div>
+                <img src="grafika/pizza4.jpg" style="width:100%">
+                <div class="text"> Vegetariana </div>
+                 </div>
+
+                 <div class="mySlide fade"> 
+                 <div class="numberText"> 5 / 6 </div>
+                <img src="grafika/pizza5.jpg" style="width:100%">
+                <div class="text"> Spicy pepperoni </div>
+                </div>
+                
+                <div class="mySlide fade"> 
+                <div class="numberText"> 6 / 6 </div>
+                <img src="grafika/pizza6.jpg" style="width:100%">
+                <div class="text"> Deep dish margherita </div>
+                </div>
+
+                <!-- dodaje przyciski "previous" i "next" -->
+                <a class="prev" onclick="plusSlide(-1)"> &#10094; </a>
+                <a class="next" onclick="plusSlide(1)"> &#10095;</a>
+ 
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+
+          </div>
+
+          <script src="pizzeria.js"> </script>
+    </body>
+</html>
